@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nearest Location Fitocity</title>
+</head>
+<script>
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(fillLocationFields);
+        }
+        else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    }
+
+    function fillLocationFields(position) {
+        var latitudeField = document.getElementById('latitude');
+        var longitudeField = document.getElementById('longitude');
+        latitudeField.value = position.coords.latitude;
+        longitudeField.value = position.coords.longitude;
+        console.log(latitude,longitude)
+    }
+
+
+</script>
+<body>
+    <form method="POST" action="/lokie">
+        <button type="button" onclick="getLocation()">Get Location</button>
+        <input type="hidden" name="latitude" id="latitude" value="">
+        <input type="hidden" name="longitude" id="longitude" value="">
+        <button type="submit">Find Nearest Hospital</button>
+    </form>
+
+
+</body>
