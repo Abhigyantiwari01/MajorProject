@@ -1,0 +1,56 @@
+.introduction{
+  background-color: #1C6758;
+  color: white;
+  height: 1230px;
+  text-align: center;
+  padding: 3% 7% 15%;
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  line-height: 1.5;
+  padding-bottom: 0;
+  font-weight: bolder;
+
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Ubuntu";
+  line-height: 1;
+  color: #8f8f8f;
+  font-weight: bolder;
+  padding-bottom: 0;
+}
+/*
+Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-right: 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/*container-fonts*/
+.container-fluid{
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color:#fff;
+  font-family: "Ubuntu",serif;
+}
+button{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
