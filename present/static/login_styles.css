@@ -1,0 +1,89 @@
+.introduction{
+    background-color: #1C6758;
+    color: white;
+    height: 520px;
+    text-align: center;
+    padding: 3% 7% 15%;
+  }
+  h1 {
+    padding-top: 3%;
+    font-size: 3.5rem;
+    font-family: "Ubuntu";
+    line-height: 1.5;
+  }
+  /*
+  Navigation Bar */
+  
+  .navbar {
+    padding-bottom: 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+  font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding-right: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  
+  #tagline{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3.62rem;
+    font-family: 'Sacramento', cursive;
+    line-height: 1.5;
+  
+  }
+  .introduction{
+    background-color: #1C6758;
+    color: white;
+    height: 520px;
+    text-align: center;
+    padding: 3% 7% 15%;
+  }
+  #c2{
+    padding-top: 32px;
+  }
+ .login{
+    color: #1C6758;
+    background-color: white;
+    text-align: center;
+    padding: 3% 7% 15%;
+    font-family: "Ubuntu";
+    font-weight: bolder;
+    height: 300px;
+ }
+.col{
+    margin: 0px 30px 0px 30px;
+    
+}
+#form2Example2,#form2Example1{
+    width: auto;
+    align-self: center;
+    padding: auto;
+    margin: auto;
+}
+  
+  /* LAST SECTION */
+  #footer{
+    background-color: #1C6758;
+    color: white;
+  
+    height: 300px;
+    padding: 9% 15% 5%;
+    text-align: center;
+  }
+  .footer-i{
+    margin: 1%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+  
+  }
+  

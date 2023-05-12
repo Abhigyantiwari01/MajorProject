@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diet Chart Registration</title>
+</head>
+<body>
+	<h1><center>Diet Chart Preperation</center></h1>
+	<br>
+	<div class = "details1">
+		<form align = "center">
+			<table align="center">
+				<tr>
+					<td><label for ="fname"> First Name:</label>
+					<input type="text" id = "fname" name="fname"></td>
+				
+					<td><label for ="lname"> Last Name:</label>
+					<input type="text" id = "lname" name="lname"></td>
+				</tr>
+				<tr>
+					<td><label for ="age"> AGE:</label>
+					<input type="text" id = "age" name="age"></td>
+					<td><label for ="height"> Height:</label>
+					<input type="text" id = "height" name="height"></td>
+				</tr>
+			</table>
+			<label for = "weight">WEIGHT:</label>
+			<input type="text" id = "weight"><br>
+			<button >SUBMIT</button>
+		</form>
+
+	</div>
+	<div class="excercise">
+		<center>ARE YOU AN EXCERCISE FREAK</center><br>
+		<form align = "center">
+			<input type="radio" name="YES">
+			<label for = "YES">YES</label><br>
+			<input type="radio" name="NO">
+			<label for = "NO">NO</label><br>
+			<button align = "center">SUBMIT</button>
+		</form>
+
+
+	</div>
+	<div class = "disease" align="center">
+			Do you have any of the disease given below , Kindly fill the details required.<br>
+			
+			<a href={{url_for("diabetes")}}>diabetes</a><br>
+			<a href={{url_for("kidney")}}>kidney</a><br>
+			<a href={{url_for("heart")}}>heart</a><br>	
+
+	</div>
+</body>
+</html>
