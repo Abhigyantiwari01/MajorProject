@@ -46,4 +46,4 @@ grid_search.fit(X, y.reshape(-1,))
 # Print the best hyperparameters and the corresponding accuracy score
 print("Best hyperparameters:", grid_search.best_params_)
 print("Best accuracy:", grid_search.best_score_)
-joblib.dump(random_classifier,"modeldia1")
+joblib.dump(random_classifier,"model1")
